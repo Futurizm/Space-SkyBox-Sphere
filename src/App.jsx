@@ -19,6 +19,9 @@ function CameraControls() {
       args={[camera, domElement]}
       autoRotate={true}
       enableZoom={false}
+      enablePan={false}
+      enableRotate={false}
+      autoRotateSpeed={1}
     />
   )
 }
